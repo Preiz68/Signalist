@@ -2,7 +2,7 @@ import { POPULAR_STOCK_SYMBOLS } from "@/lib/constants";
 import { cache } from "react";
 
 const MASSIVE_BASE_URL = "https://api.massive.com";
-const MASSIVE_API_KEY = process.env.MASSIVE_API_KEY;
+const MASSIVE_API_KEY = process.env.NEXT_PUBLIC_MASSIVE_API_KEY;
 
 async function fetchJSON<T>(
   url: string,
